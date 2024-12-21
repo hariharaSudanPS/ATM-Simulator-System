@@ -12,7 +12,7 @@ public class Login extends JFrame implements ActionListener{
     JButton b1,b2,b3;
   
     Login(){
-        setTitle("AUTOMATED TELLER MACHINE");
+        setTitle("ATM");
         
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("ASimulatorSystem/icons/logo.jpg"));
         Image i2 = i1.getImage().getScaledInstance(100, 100, Image.SCALE_DEFAULT);
